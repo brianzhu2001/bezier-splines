@@ -1,0 +1,24 @@
+/**************************/
+// Tweens
+/**************************/
+
+var Tweens = {
+	default: function(k) {
+		return 0;
+	},
+	interpolate: function(k) {
+		return k;
+	},
+	// quadEaseIn: function(k) {
+	// 	return k * k;
+	// },
+	// quadEaseOut: function(k) {
+	// 	return - k * ( k - 2 );
+	// },
+	// quadEaseInOut: function(k) {
+	// 	if ( ( k *= 2 ) < 1 ) return 0.5 * k * k;
+	// 	return - 0.5 * ( --k * ( k - 2 ) - 1 );
+	// }
+};
+
+export { Tweens }
